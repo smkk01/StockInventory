@@ -1,0 +1,207 @@
+[
+  {
+    "ContainingType": "StockInventoryWebAPI.Controllers.StockInventoryController",
+    "Method": "CheckStockByProductId",
+    "RelativePath": "api/StockInventory/checkStockByProductId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "StockInventoryWebAPI.Models.Stock.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "StockInventoryWebAPI.Controllers.StockInventoryController",
+    "Method": "CreateNewProduct",
+    "RelativePath": "api/StockInventory/CreateNewProduct",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "obj",
+        "Type": "StockInventoryWebAPI.Models.Stock.StockProduct",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "StockInventoryWebAPI.Models.Stock.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "StockInventoryWebAPI.Controllers.StockInventoryController",
+    "Method": "CreateNewPurchase",
+    "RelativePath": "api/StockInventory/CreateNewPurchase",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "obj",
+        "Type": "StockInventoryWebAPI.Models.Stock.StockPurchase",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "StockInventoryWebAPI.Models.Stock.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "StockInventoryWebAPI.Controllers.StockInventoryController",
+    "Method": "CreateNewSale",
+    "RelativePath": "api/StockInventory/CreateNewSale",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "obj",
+        "Type": "StockInventoryWebAPI.Models.Stock.StockSale",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "StockInventoryWebAPI.Models.Stock.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "StockInventoryWebAPI.Controllers.StockInventoryController",
+    "Method": "GetAllProducts",
+    "RelativePath": "api/StockInventory/GetAllProduct",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "StockInventoryWebAPI.Models.Stock.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "StockInventoryWebAPI.Controllers.StockInventoryController",
+    "Method": "GetAllPurchase",
+    "RelativePath": "api/StockInventory/GetAllPurchase",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "StockInventoryWebAPI.Models.Stock.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "StockInventoryWebAPI.Controllers.StockInventoryController",
+    "Method": "GetAllSale",
+    "RelativePath": "api/StockInventory/GetAllSale",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "StockInventoryWebAPI.Models.Stock.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "StockInventoryWebAPI.Controllers.StockInventoryController",
+    "Method": "GetAllStock",
+    "RelativePath": "api/StockInventory/GetAllStock",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "StockInventoryWebAPI.Models.Stock.ApiResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "StockInventoryWebAPI.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[StockInventoryWebAPI.WeatherForecast, StockInventoryWebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "+r1SZLM2dV/WfXbHNBIAn/MAln4+KzJ6kR8WQRruiRw=",
+  "Source": "StockInventoryWebAPI",
+  "BasePath": "_content/StockInventoryWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
